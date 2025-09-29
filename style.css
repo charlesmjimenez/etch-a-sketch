@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 10px;
+}
+
+.squares-container {
+  height: 800px;
+  width: 800px;
+  border: 2px red solid;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.square {
+  border: 1px black solid;
+  box-sizing: border-box;
+}
+
+.colour {
+  background-color: gray;
+}
